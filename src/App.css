@@ -1,0 +1,384 @@
+.centrado-container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: flex-start; 
+  width: 100%; 
+}
+
+.centrado {
+  width: 1600px;
+  height: 50px;
+  background-color: #0B7FCE;
+}
+
+.centrado2 {
+  position: absolute;
+  right: 40px;
+  width: 120px;
+  height: 50px;
+  background-color: #0B7FCE;
+}
+
+.Texto h1{
+  text-align:right;
+  padding-right:600px;
+  transform: translateY(250%);
+  color: #0B7FCE;
+  font-size:80px;
+}
+
+.Texto1 {
+  text-align: right;
+  color:black;
+  transform: translateY(1050%);
+  padding-right: 18%;
+}
+
+.image1-pagina1 {
+  position: absolute;
+  bottom: 150px; 
+  left: 150px;   
+  width: 400px;  
+  height: 80px;
+}
+
+.image2-pagina1 {
+  position: absolute;
+  bottom: 20px;  
+  right: 20px;   
+  width: 100px;  
+  height: auto;
+}
+
+.linea{
+  width:5px;
+  height:5px;
+  background-color: #0B7FCE;
+  margin:auto;
+  height:65vh;
+}
+
+.linea2{
+  height:5px; 
+  background-color: #0078d7; 
+  width: 500px;
+  margin-top: -400px;
+  transform: translateX(30%);
+}
+
+.cuadroDeFondo{
+  width: 500px; 
+  height: 170px; 
+  background-color: #0B7FCE;
+  position: relative;
+  top: -530px;
+  transform:translateX(1120px);
+  border-radius: 10px;
+}
+
+.patrullaFormulario {
+  input {
+    height: 40px;
+    width: 360px; 
+  }
+  content: "texto";  
+  position: absolute;
+  right: 20%;           
+  top: 55%;               
+  transform: translateY(-50%); 
+  width: 300px;           
+  height: 50px;           
+  color: white;             
+  display: flex;             
+  justify-content: center;   
+  align-items: center;       
+  font-size: 16px;           
+}
+
+.cuadranteFormulario {
+  input {
+    height: 35px;
+    width: 350px; 
+  }
+  position: absolute;
+  right: 20%;             
+  top: 65%;                
+  transform: translateY(-50%); 
+  width: 300px;             
+  height: 100px;             
+  color: white;         
+  display: flex;             
+  justify-content: center;   
+  align-items: center;       
+  font-size: 16px;          
+}
+
+.boton{
+  position: relative;
+  right: -1250px;
+  bottom: 500px;
+  width: 250px;
+  color: white;
+  background: #0B7FCE;
+  border-radius: 5px;
+  border:50px;
+}
+
+/* -------------SEGUNDA PAGINA-------------*/
+
+.cuadroDeFondo2{
+  width: 300px; 
+  height: 630px; 
+  background-color: #0B7FCE;
+  position: relative;
+  top: 40px;
+  transform:translateX(30px);
+  border-radius: 10px;
+}
+
+.marco{
+  width: 1500px; 
+  height: 630px; 
+  background-color: #0B7FCE;
+  position: relative;
+  top: -590px;
+  transform:translateX(370px);
+  border-radius: 30px;
+  border-color:#0B7FCE;
+  background-color: transparent;
+  border: 2px solid #0B7FCE; 
+}
+
+.Imagen2-paguina2{
+  position: absolute;
+  bottom: -950px;     
+  right: 495px;
+  opacity: 0.2;
+}
+.Imagen1-paguina2 {
+  position: absolute;
+  bottom: -965px;     
+  right: 50px;
+}
+
+
+.Imagen3-paguina2{
+  position: absolute;
+  bottom: -970px;     
+  left: 70px;
+  transform: translateY(-1050%);
+}
+.w{
+  position: absolute;
+  bottom: -975px;     
+  left: 130px;
+  transform: translateY(-1270%);
+  color: white;
+}
+
+.Imagen4-paguina2{
+  position: absolute;
+  bottom: -1040px;  
+  left: 70px;
+  transform: translateY(-1050%);
+}
+
+.A{
+  Position: absolute;
+  bottom: -1040px;     
+  left: 130px;
+  transform: translateY(-1270%);
+  color: white;
+}
+
+.Imagen5-paguina2{
+  position: absolute;
+  bottom: -1110px;  
+  left: 70px;
+  transform: translateY(-1050%);
+}
+
+.S{
+  Position: absolute;
+  bottom: -1110px;     
+  left: 130px;
+  transform: translateY(-1270%);
+  color: white;
+}
+
+.Imagen6-paguina2{
+  position: absolute;
+  bottom: -1180px;  
+  left: 70px;
+  transform: translateY(-1050%);
+}
+
+.D{
+  Position: absolute;
+  bottom: -1180px;     
+  left: 130px;
+  transform: translateY(-1270%);
+  color: white;
+}
+
+/* -------------TERCERA PAGINA-------------*/
+
+.Imagen7-paguina3{
+  position: absolute;
+  bottom: -2260px;     
+  right: 500px;
+  opacity: 0.2;
+}
+.Imagen8-paguina3{
+  position: absolute;
+  bottom: -2275px;     
+  right: 50px;
+}
+
+.Imagen9-paguina3{
+  position: absolute;
+  bottom: -2959px;     
+  left: 70px;
+  transform: translateY(-2450%);
+}
+
+.Z{
+  Position: absolute;
+  bottom: -3030px;     
+  left: 130px;
+  transform: translateY(-3169%);
+  color: white;
+  cursor: pointer;
+}
+
+.Imagen10-paguina3{
+  position: absolute;
+  bottom: -3040px;     
+  left: 70px;
+  transform: translateY(-2450%);
+}
+
+.X{
+  Position: absolute;
+  bottom: -3110px;     
+  left: 130px;
+  transform: translateY(-3169%);
+  color: white;
+  cursor: pointer;
+}
+
+.Imagen11-paguina3{
+  position: absolute;
+  bottom: -3110px;     
+  left: 70px;
+  transform: translateY(-2450%);
+}
+
+.C{
+  Position: absolute;
+  bottom: -3180px;     
+  left: 130px;
+  transform: translateY(-3169%);
+  color: white;
+  cursor: pointer;
+}
+
+.Imagen12-paguina3{
+  position: absolute;
+  bottom: -3180px;     
+  left: 70px;
+  transform: translateY(-2450%);
+}
+
+.V{
+  Position: absolute;
+  bottom: -3250px;     
+  left: 130px;
+  transform: translateY(-3169%);
+  color: white;
+  cursor: pointer;
+}
+
+.marco1{
+  right: -50px;
+  width: 1400px; 
+  height: 540px; 
+  background-color: #0B7FCE;
+  position: relative;
+  top: -1180px;
+  transform:translateX(370px);
+  border-radius: 30px;
+  border-color:#0B7FCE;
+  background-color: transparent;
+  border: 2px solid #0B7FCE; 
+}
+
+.linea3{
+  position: relative;
+  right: 425px;
+  top: -1719px;
+  width:2px;
+  height:5px;
+  background-color: #0B7FCE;
+  margin:auto;
+  height:58.5vh;
+}
+
+.linea4{
+  position: relative;
+  right: 132px;
+  top: -2257px;
+  width:2px;
+  height:5px;
+  background-color: #0B7FCE;
+  margin:auto;
+  height:58.5vh;
+}
+
+.linea5{
+  position: relative;
+  right: -216px;
+  top: -2795px;
+  width:2px;
+  height:5px;
+  background-color: #0B7FCE;
+  margin:auto;
+  height:58.5vh;
+}
+
+.linea6{
+  position: relative;
+  right: -537px;
+  top: -3330px;
+  width:2px;
+  height:5px;
+  background-color: #0B7FCE;
+  margin:auto;
+  height:58.5vh;
+}
+
+.Tabla {
+  position: relative;
+  top: -3900px;
+  right: -169px;
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 8px; 
+}
+
+table {
+  width: 74.4%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th {
+  border: 1px solid black;
+  background-color: #606060;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px; 
+}
